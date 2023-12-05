@@ -37,7 +37,7 @@ if [ "" != "$ask" ]; then
 		gnome-extensions disable zorin-taskbar@zorinos.com
 		gnome-extensions enable zorin-dash@zorinos.com
 		gnome-extensions enable zorin-hide-activities-move-clock@zorinos.com
-		curl https://raw.githubusercontent.com/TGRush/Zorin-extra-Layouts/main/zorin-dash-conf | dconf load /org/gnome/shell/extensions/zorin-dash/
+		curl https://raw.githubusercontent.com/pecha2k2/Zorin-extra-Layouts/main/zorin-dash-conf | dconf load /org/gnome/shell/extensions/zorin-dash/
 	fi
 
 	if [ "$ask" == "win11" ]; then
@@ -46,8 +46,8 @@ if [ "" != "$ask" ]; then
 		gnome-extensions disable zorin-hide-activities-move-clock@zorinos.com
 		gnome-extensions enable zorin-taskbar@zorinos.com
 		gnome-extensions enable zorin-menu@zorinos.com
-		curl https://raw.githubusercontent.com/TGRush/Zorin-extra-Layouts/main/11-panel-conf | dconf load /org/gnome/shell/extensions/zorin-taskbar/
-		curl https://raw.githubusercontent.com/TGRush/Zorin-extra-Layouts/main/11-menu-conf | dconf load /org/gnome/shell/extensions/zorin-menu/
+		curl https://raw.githubusercontent.com/pecha2k2/Zorin-extra-Layouts/main/11-panel-conf | dconf load /org/gnome/shell/extensions/zorin-taskbar/
+		curl https://raw.githubusercontent.com/pecha2k2/Zorin-extra-Layouts/main/11-menu-conf | dconf load /org/gnome/shell/extensions/zorin-menu/
 	fi
 
 	if [ "$ask" == "ubuntu"]; then
@@ -58,7 +58,7 @@ if [ "" != "$ask" ]; then
 		gnome-extensions disable zorin-menu@zorinos.com
 		gnome-extensions disable zorin-taskbar@zorinos.com
 		gnome-extensions enable zorin-dash@zorinos.com
-		curl https://raw.githubusercontent.com/TGRush/Zorin-extra-Layouts/main/ubuntu-zorin-dash-conf | dconf load /org/gnome/shell/extensions/zorin-dash/
+		curl https://raw.githubusercontent.com/pecha2k2/Zorin-extra-Layouts/main/ubuntu-zorin-dash-conf | dconf load /org/gnome/shell/extensions/zorin-dash/
 	fi
 
 	if [ "$ask" == "winclassic" ]; then
@@ -67,8 +67,8 @@ if [ "" != "$ask" ]; then
 		gnome-extensions disable zorin-hide-activities-move-clock@zorinos.com
 		gnome-extensions enable zorin-taskbar@zorinos.com
 		gnome-extensions enable zorin-menu@zorinos.com
-		curl https://raw.githubusercontent.com/TGRush/Zorin-extra-Layouts/main/classic-panel-conf | dconf load /org/gnome/shell/extensions/zorin-taskbar/
-		curl https://raw.githubusercontent.com/TGRush/Zorin-extra-Layouts/main/classic-menu-conf | dconf load /org/gnome/shell/extensions/zorin-menu/
+		curl https://raw.githubusercontent.com/pecha2k2/Zorin-extra-Layouts/main/classic-panel-conf | dconf load /org/gnome/shell/extensions/zorin-taskbar/
+		curl https://raw.githubusercontent.com/pecha2k2/Zorin-extra-Layouts/main/classic-menu-conf | dconf load /org/gnome/shell/extensions/zorin-menu/
 	fi
 
 	if [ "$ask" == "popshell" ]; then
